@@ -1,0 +1,7 @@
+.listConditionCls{
+    height:100px;
+    overflow-y: scroll;
+    padding-left:13px;
+    border-top: 2px solid #F1F1F1;
+    border-bottom: 2px solid #F1F1F1;
+}

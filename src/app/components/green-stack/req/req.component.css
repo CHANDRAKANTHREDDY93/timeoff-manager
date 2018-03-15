@@ -1,0 +1,23 @@
+h6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+}
+.req{
+    border-top: 1px solid black;
+}
+.centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding: 10px;
+}
+h5{
+    float: right;
+}
+a{
+    color: red;
+    cursor: pointer;
+}

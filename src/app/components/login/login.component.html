@@ -1,0 +1,41 @@
+<div class="wrapper">
+  <div class="container col-md-4">
+    <div class="header">
+        <h3>TriNet</h3>
+        <p>Incredible results</p>
+        <p>happen with better HR</p>
+    </div>
+    <div class="loginForm">
+      <h4>Login</h4>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="idType" id="idType">ID Type:</label>
+          <div class="dropdown col-md-7">
+              <button class="btn btn-default dropdown-toggle idTypeBtn" (click)="onIdSelect($event)" name="idType" type="button" data-toggle="dropdown">{{this.loginLabel}}
+                <span class="caret pull-right"></span>
+              </button>
+                <ul class="dropdown-menu" #idType value="selectedList" name="selectedList">
+                <li *ngFor="let list of idTypeList" (click)="onSelectList(list)" [value]="list" name="selectedList">
+                  <a href="#">{{list}}</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="empId" id="empId">{{this.loginLabel}}:</label>
+          <div class="col-sm-7">
+            <input type="empId" class="form-control" id="empId" placeholder="Enter your {{loginLabel}}" [(ngModel)]="data.empId" name="empId">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-4" for="pwd" >Password:</label>
+          <div class="col-sm-7">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" [(ngModel)]="data.pwd" name="pwd">
+          </div>
+        </div>
+        <app-red-button [buttonclass]="loginClass" [buttonText]="loginText" (click)="loginUser(empId, pwd)"></app-red-button>                  
+        <a class="forgotPassword">Forgot your password or ID?</a>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+<div class="container">
+  <app-red-button buttonclass="red-button" buttonText="Approve" data-toggle="modal" data-target="#myModal"></app-red-button>
+  <!-- Modal -->
+  <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <h4 class="modal-title" id="myModalLabel">PTO</h4>
+            </div>
+        <div class="modal-body">
+          <div class="menuRight">
+            <h1>8</h1>
+            <span>Hours</span>
+            <br>
+            Total Days: 1
+          </div>
+
+          <ul>
+            <!--li *ngFor="let field of fields">
+              {{field}}: {{}}
+            </li-->
+            <li>Last Edited : 11/13/2017</li>
+            <li>Status : Submitted</li>
+            <li>Start Date : 10/11/2017</li>
+            <li>End Date : 10/11/2017</li>
+            <li>Remaining : 20 Hours(25 Days)</li>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-4 col-form-label">Approvers Comments</label>
+                <div class="col-sm-8">
+                  <textarea class="form-control" id="inputEmail3"></textarea>
+                </div>
+              </div>
+          </ul>
+
+        </div>
+        <div class="modal-footer">
+          <app-red-button [buttonclass]="buttonclass" [buttonText]="buttonText" data-toggle="modal" data-target=".request-time-off-modal-lg"></app-red-button>
+          <app-red-button data-dismiss="modal" [buttonclass]=" closebtnclass" [buttonText]=" closebtn" data-toggle="modal" data-target=".request-time-off-modal-lg"></app-red-button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

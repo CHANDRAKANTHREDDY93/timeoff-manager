@@ -1,0 +1,15 @@
+h6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+}
+.centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+.noEmp{   
+    border-bottom: 1px solid black;
+}

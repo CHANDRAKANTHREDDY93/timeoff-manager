@@ -1,0 +1,56 @@
+hr{
+    color:blue;
+    border-bottom: 2px solid;
+}
+h4{
+    color:dodgerblue;
+    text-align: left;    
+    font-size: 24px;
+}
+h3{
+    font-size: 60px;
+}
+.modal-dialog {
+    position:fixed;
+    bottom:0%;
+    right:0%;
+    margin:0%;
+    width:35%;
+}
+.menuRight{
+    float : right;
+    margin: auto;
+    background-color: white;
+    width: 100px;
+    color: dodgerblue;
+}
+h1{
+    font-size: 40px;
+}
+.form-control{
+    height: 50px;
+    width: 300px;
+}
+.modal-content{
+    background:#f2f2f2;
+}
+.modal-footer{
+    background:white;
+}
+.close{
+    color:blue;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 20px;
+ }
+span{
+    display: inline-block;
+}
+
+.closebtnclass{
+    width : 150px;
+    background-color: dodgerblue
+}

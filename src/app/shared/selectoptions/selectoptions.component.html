@@ -1,0 +1,5 @@
+<select class="form-control" [(ngModel)]="leaveType" name="leaveType" required>
+  <option *ngFor="let leave of leaveTypeList" [ngValue]="leave" (click)="onSelected()">
+      {{leave}}
+  </option>
+</select>

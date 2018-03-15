@@ -1,0 +1,66 @@
+.wrapper {
+    background-image: url('../../../assets/images/meeting.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.header {
+    background: rgba(243, 234, 234, 0.8);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #0077BD;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.container .header p {
+    color: #739600;
+    font-size: 24px;
+    line-height: 0.9em;
+}
+
+#emailLabel {
+    text-align: right;
+}
+
+.loginForm {
+    background: white;
+}
+
+.loginForm form {
+    padding: 15px;
+}
+
+.loginForm h4 {
+    background: #0077BD;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.idTypeBtn {
+    width: 100%;
+    text-align: left;
+}
+
+.loginForm ul {
+    width: 90%;
+    margin-left: 15px; 
+}
+
+.caret {
+    margin: 10px;
+}
+
+.forgotPassword {
+    color: #E37222;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,12 @@
+h6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 16px;
+}
+.triSymbol{
+    height: 50px;
+}
+span{
+    font-size: 13px;
+}

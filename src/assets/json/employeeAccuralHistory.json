@@ -1,0 +1,10 @@
+[
+    {"Name":"Andrew Markovitch","Start Date" : "07/25/2016", "End date" :"08/18/2017" ,"Type" :"PTO", "Total Hours" : 215.00,  "Direct Manager" :"MAX" , "Status" :"Submitted","leaveStatus":"Pending"},
+    {"Name":"Brain Frisch","Start Date" : "05/25/2016", "End date" :"08/2/2017" ,"Type" :"PTO", "Total Hours" : 90.00,  "Direct Manager" :"XOOM" , "Status" :"Submitted","leaveStatus":"Approved"},
+    {"Name":"Cristalle Jaramilla","Start Date" : "07/25/2016",  "End date" :"08/25/2017" ,"Type" :"PTO", "Total Hours" : 251.00,  "Direct Manager" :"MAX" , "Status" :"Submitted","leaveStatus":"Approved"},
+    {"Name":"Daniele Cavina","Start Date" : "05/11/2016", "End date" :"10/7/2017" ,"Type" :"Leave W/O pay,CFRA", "Total Hours" : 182.00,  "Direct Manager" :"XOOM" , "Status" :"Submitted","leaveStatus":"Approved"},
+    {"Name":"Mathew Phillips","Start Date" : "06/27/2016",  "End date" :"03/14/2017" ,"Type" :"Leave W/O pay,CFRA", "Total Hours" : 95.50,  "Direct Manager" :"CRAIG" , "Status" :"Submitted","leaveStatus":"Processed"},
+    {"Name":"Mark Tyson","Start Date" : "06/13/2015",  "End date" :"06/25/2017" ,"Type" :"Leave W/O pay,CFRA", "Total Hours" : 153.90,  "Direct Manager" :"CRAIG" , "Status" :"Submitted","leaveStatus":"Approved"},
+    {"Name":"Jacksonn Kevin","Start Date" : "05/30/2014",  "End date" :"08/5/2017" ,"Type" :"PTO", "Total Hours" : 75.94,  "Direct Manager" :"MAX" , "Status" :"Submitted","leaveStatus":"Declined"},
+    {"Name":"Andrew Markovitch","Start Date" : "05/02/2013",  "End date" :"08/25/2017" ,"Type" :"Leave W/O pay,CFRAO", "Total Hours" : 156.00,  "Direct Manager" :"XOOM" , "Status" :"Submitted","leaveStatus":"Pending"}
+]

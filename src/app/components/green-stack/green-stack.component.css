@@ -1,0 +1,30 @@
+.wrapper {
+    background: #F2F2F2;
+}
+.trinet-img {
+    margin: 10px;
+    height: 60px;
+    width: 110px;
+    margin-bottom:0px;
+}
+
+.main-content {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    height:630px;
+    margin-top:0px;
+}
+h3{
+    color: dodgerblue;
+    display: inline;
+    padding-left: 10px;
+}
+.gray {
+    color: gray;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.verticalLine{
+    border-left:1px solid black;
+}

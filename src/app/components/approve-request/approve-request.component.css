@@ -1,0 +1,39 @@
+.wrapper {
+    background: #F2F2F2;
+}
+
+.trinet-img {
+    margin: 10px;
+    height: 60px;
+    width: 110px;
+    margin-bottom: 0px;
+}
+
+.main-content {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    margin-top:0px;
+    height:650px;
+}
+
+.heading a {
+    color: #EA7330;
+    cursor: pointer;
+}
+
+.row h2{
+    color: #1b78cc;
+    margin-top:0px;
+}
+.heading {
+    display: flex;
+}
+#searchEmp .col-md-2{
+    padding-right:0px;
+    padding-top:10px;
+    width:65px;    
+}
+#searchEmp .col-md-7{
+    padding-left:0px;
+}

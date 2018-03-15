@@ -1,0 +1,30 @@
+<div class="wrapper">
+  <div class="container">
+    <img class="trinet-img" src="../../../assets/images/trinetTimeOff.PNG" alt="trinet logo">
+    <div class="main-content">
+      <div class="heading">
+          <a routerLink="/greenStack"><span class="glyphicon glyphicon-chevron-left"></span>{{'time-off-overview-heading' | translate}}</a>        
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>{{'my-team' | translate}}</h2>
+        </div>
+        <div class="col-md-6" id="searchEmp">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <label class="form-control-label">{{'go-to' |translate}} :</label>
+                </div>
+                <div class="col-md-6">
+                    <app-selectoptions [leaveTypeList]="employeeTypeList" (selectedLeaveType)="selectedLeave($event)"></app-selectoptions>
+                </div>                
+              </div>
+            </form>
+          </div>
+      </div>
+      <app-employee-card [cardData]="cardData"></app-employee-card>
+      <app-leave-data></app-leave-data>   
+    </div>
+  </div>
+</div>

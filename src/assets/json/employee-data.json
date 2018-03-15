@@ -1,0 +1,65 @@
+[
+    {
+        "shortName":"AM",
+        "fullName":"Andrew Markovitch",
+        "projectedData":"10/10/2017",
+        "progressbar":"200",
+        "MaxPTOBalance":"200 hrs",
+        "request":2,
+        "leaveStatus":"Pending"
+    },
+    {
+        "shortName":"BF",
+        "fullName":"Brain Frisch",
+        "projectedData":"11/29/2017",
+        "progressbar":"154.78",
+        "MaxPTOBalance":"160 hrs",
+        "request":0,
+        "leaveStatus":"Approved"
+    },
+    {
+        "shortName":"CJ",
+        "fullName":"Cristalle Jaramilla",
+        "projectedData":"01/25/2018",
+        "progressbar":"136.17",
+        "MaxPTOBalance":"160 hrs",
+        "request":0,        
+        "leaveStatus":"Approved"
+    },
+    {
+        "shortName":"DC",
+        "fullName":"Daniele Cavina",
+        "projectedData":"01/10/2018",
+        "progressbar":"140.99",
+        "MaxPTOBalance":"160 hrs",
+        "request":0,        
+        "leaveStatus":"Approved"
+    },
+    {
+        "shortName":"MP",
+        "fullName":"Mathew Phillips",
+        "projectedData":"08/29/2018",
+        "progressbar":"67.54",
+        "MaxPTOBalance":"160 hrs",
+        "request":0,        
+        "leaveStatus":"Approved"
+    },
+    {
+        "shortName":"JK",
+        "fullName":"Jacksonn Kevin",
+        "projectedData":"02/20/2018",
+        "progressbar":"130",
+        "MaxPTOBalance":"200 hrs",
+        "request":0,
+        "leaveStatus":"Approved"
+    },
+    {
+        "shortName":"MT",
+        "fullName":"Mark Tyson",
+        "projectedData":"02/13/2018",
+        "progressbar":"20",
+        "MaxPTOBalance":"160 hrs",
+        "request":0,
+        "leaveStatus":"Approved"
+    }
+]

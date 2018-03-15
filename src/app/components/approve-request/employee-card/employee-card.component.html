@@ -1,0 +1,27 @@
+<div class="cardbody">
+    <div class="cards">
+        <div class="cardStyles" *ngFor="let card of cardData | paginate: { id:'card',itemsPerPage: 5, currentPage: p}">
+            <div *ngIf="card.request" class="request"><p id="requestNum">{{card.request}}</p></div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <span class="shortNameStyle">{{card.shortName | uppercase}}</span>
+                </div>
+                <div class="col-sm-9">
+                    <h4 class="fullNameStyles">{{card.fullName}}</h4>
+                </div>
+            </div>
+            <p class="projectedDataStyles">{{'projected-date'|translate}}:{{card.projectedData}}</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-custom" [style.background] ="card.progressbar > 150 ? '#A3303A;':'#57bbe2'" role="progressbar" aria-valuemin="0" aria-valuemax="160" [style.width]="getWidth(card.progressbar)">
+                    {{card.progressbar}} hrs
+                </div>
+            </div>
+            <p class="MaxPTOBalanceStyles">{{'max-pto-balance'|translate}}:{{card.MaxPTOBalance}}</p>
+        </div>
+    </div>
+    <div class="paggination">        
+        <pagination-controls id="card" directionLinks="false" (pageChange)="p = $event"></pagination-controls> 
+    </div>    
+</div>
+      
+      

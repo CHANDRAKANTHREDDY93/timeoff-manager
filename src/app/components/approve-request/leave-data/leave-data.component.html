@@ -1,0 +1,15 @@
+<app-link-tag (linkChanged)="linkChangedHandler($event)" [tagData]="tagData"></app-link-tag>
+<ag-grid-angular #agGrid style="width:99%; height: 240px; box-sizing: border-box;" class="ag-theme-blue"
+  [columnDefs]="columnDefs" 
+  [rowData]="rowData"
+  [rowSelection]="rowSelection"
+  [gridOptions]="gridOptions"
+  (gridReady)="onGridReady($event)"
+  [suppressRowClickSelection]="true" 
+  enableFilter
+  enableSorting
+  enableColResize>
+ </ag-grid-angular>
+ <div class="btn" *ngIf="approveBtn">
+    <app-leave-request buttonclass="red-button"></app-leave-request>
+ </div>

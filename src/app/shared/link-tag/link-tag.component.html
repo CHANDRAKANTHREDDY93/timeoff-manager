@@ -1,0 +1,11 @@
+
+<div class="body">
+    <div class="linkTag" *ngFor="let data of tagData">
+        <ul *ngIf="data.Text != 'none'" class="linkUL">
+            <li class="linkLI">
+                <a [ngClass]="{'active': selectedItem== data.Text}" class="tagStyles" *ngIf="data.Text != 'none'" (click)="linkSelected(data.Text)">{{data.Text |uppercase}}</a>
+            </li>
+        </ul>
+        <!-- <button class="glyStyles" *ngIf="data.Gly != 'none'" class="glyphicon glyphicon-{{data.Gly}}"></button> -->
+    </div>
+</div>
